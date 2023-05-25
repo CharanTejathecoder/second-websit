@@ -1,63 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charan Teja</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon_io/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charan Teja</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon_io/favicon.ico">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    .logo {
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+      background-color: white;
+    }
+  </style>
+  <script>
+    function submitForm() {
+      alert("Thanks for contacting me. I will get back to you shortly.");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="cloud.png" alt="cloud-pic">
-       
-            <div class="namebox">
-                <h1>Hi, I am Charan</h1>
-                <h2>A Programmer</h2>
-       
-            </div>
-        
-        <img src="cloud.png" alt="" class="bottom-cloud">
-        <img src="mountain.png" alt="" class="mountain">
+  <div class="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#con1">About-Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#con3">My-Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#con2">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#con4">Contact-me</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="top-container">
+    <img class="top-cloud" src="cloud.png" alt="cloud-pic">
+
+    <div class="namebox">
+      <h1>Hi, I am Charan</h1>
+      <h2>A Programmer</h2>
+
     </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img class="profilepic" src="charanteja-profile-pic.png" alt="my profile photo">
-          <h2>Hello.</h2>
-          <p class="profile-discription"> This is Charan Teja. I am a well experienced <strong>web and app developer</strong>. I am also an <strong>Game designer</strong></p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="profilepic2" src="coding-1556754232.avif" alt="coding photo">
-            <h3>Web Developer</h3>
-            <p class="skill-discription">I have been creating <strong>fast, efficient and attractive websites</strong> since past <strong>5</strong> years. I have worked in <strong>four big MNCs</strong> for designing and managing their websites. </p>
+
+    <img src="cloud.png" alt="" class="bottom-cloud">
+    <img src="mountain.png" alt="" class="mountain">
+  </div>
+  <div class="middle-container" id="con1">
+    <div class="profile">
+      <hr>
+      <h2 class="underlined">About me</h2>
+
+      <div class="skill-row">
+        <!-- <img class="profilepic2" src="coding-1556754232.avif" alt="coding photo"> -->
+        <img class="profilepic" src="full_pic.jpg" alt="my profile photo">
+        <h3>Hello.</h3>
+        <p class="skill-discription">As a final year B.Tech student at the esteemed Indian Institute of Technology (IIT)
+          Hyderabad, I have cultivated a passion for web development, problem-solving, and data structures and
+          algorithms. Throughout my academic journey, I have gained valuable experience by working on three college
+          websites, honing my skills in front-end development and user experience design. Additionally, I have
+          independently created multiple websites using React.js, showcasing my proficiency in modern web development
+          frameworks. With an insatiable curiosity and a love for puzzles, I am driven to unravel complex coding
+          challenges and apply innovative solutions. My portfolio reflects my dedication to excellence in both technical
+          skills and creative problem-solving, making me a valuable asset to any organization seeking a versatile and
+          motivated developer.
+        </p>
+      </div>
+
+
+    </div>
+    </div>
+    <hr>
+    <div class="skills" id="con3">
+      <h2 class="underlined">My Skills.</h2>
+  
+      <div class="skill-container">
+        <h3 class="mt-5 mb-4">I have knowledge in the following </h3>
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Programming Languages</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><img src="html-5.svg" alt="HTML Logo" class="logo"> HTML</li>
+              <li class="list-group-item"><img src="css3.svg" alt="CSS Logo" class="logo"> CSS</li>
+              <li class="list-group-item"><img src="javascript.gif" alt="JavaScript Logo" class="logo"> JavaScript</li>
+              <li class="list-group-item"><img src="python.gif" alt="Python Logo" class="logo"> Python</li>
+              <li class="list-group-item"><img src="java.gif" alt="Java Logo" class="logo"> Java</li>
+              <li class="list-group-item"><img src="c++.svg" alt="C++ Logo" class="logo"> C++</li>
+              <!-- <li class="list-group-item"><img src="ruby-logo.png" alt="Ruby Logo" class="logo"> Ruby</li> -->
+              <!-- <li class="list-group-item"><img src="php-logo.png" alt="PHP Logo" class="logo"> PHP</li> -->
+            </ul>
           </div>
-          <div class="skill-row">
-            <img class="profilepic3" src="python-coding-mistakes.jpeg" alt="python-logo">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p class="skill-discription">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          <div class="col-md-4">
+            <h2>Frontend Frameworks </h2>
+            <ul class="list-group">
+              <li class="list-group-item"><img src="tailwindcss.svg" alt="Bootstrap Logo" class="logo"> Tailwind CSS
+              </li>
+              <li class="list-group-item"><img src="react-native.svg" alt="React Logo" class="logo"> React.js</li>
+              <!-- <li class="list-group-item"><img src="angular.svg" alt="Angular Logo" class="logo"> Angular</li> -->
+              <!-- <li class="list-group-item"><img src="vuejs.svg" alt="Vue.js Logo" class="logo"> Vue.js</li> -->
+              <li class="list-group-item"><img src="nodejs.svg" alt="Node.js Logo" class="logo"> Node(Backend)</li>
+              <!-- <li class="list-group-item"><img src="expressjs-logo.png" alt="Express.js Logo" class="logo"> Express.js</li> -->
+            </ul>
           </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+          <div class="col-md-4">
+            <h2>Other technical knowledge</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><img src="git.svg" alt="Django Logo" class="logo"> Git</li>
+              <li class="list-group-item"><img src="github.gif" alt="Ruby on Rails Logo" class="logo"> GitHub</li>
+              <li class="list-group-item"><img src="solid_edge_logo_1.jpeg" alt="Laravel Logo" class="logo"> Solid Edge
+              </li>
+            </ul>
+            <h3>Operating Systems</h3>
+            <ul class="list-group">
+              <li class="list-group-item"><img src="apple-logo.gif" alt="Django Logo" class="logo"> Mac</li>
+              <li class="list-group-item"><img src="icons8-windows-10.svg" alt="Ruby on Rails Logo" class="logo">
+                Windows</li>
+              <li class="list-group-item"><img src="linux.jpeg" alt="Laravel Logo" class="logo"> Linux</li>
+            </ul>
+          </div>
         </div>
       </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p class="last">© 2022 Charan Teja @ Power creations </p>
+    </div>
+    <hr>
+    <div class="PORs" id="con2">
+      <br>
+      <h2>Position Of Responsibilities</h2>
+      <br>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5>Web and App Developer at Sunshine</h5>
+            <img src="./por1.jpeg" class="d-block w-50  " alt="Mental-health-related-Image">
+            <p>The counselling cell of IIT HYDERABAD</p>
+            <br>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h5>Web Coordinator at Media Council</h5>
+            <img src="./por3.png" class="d-block w-50 h-90" alt="...">
+            <p>The council that manages all the websites of IIT Hyderabad</p>
+            <br>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h5>Web Development Executive at CES</h5>
+            <img src="./por3.jpeg" class="d-block w-50 h-100" alt="...">
+            <p>CIVIL ENGINEERING SOCIETY OF IIT HYDERABAD</p>
+            <br>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      
-    
+      <br>
+    </div>
+    <hr>
+    <div class="contact-me" id="con4">
+      <!-- Contact Section -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Contact</h2>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <form onsubmit="event.preventDefault(); submitForm();">
+                <div class="mb-3 row">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+    <!-- <div class="bottom-container"> -->
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p>&copy; 2023 J.Charan Teja. All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#"><img src="instagram.svg" class="logo"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="mail3.svg" class="logo"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="phone.svg" class="logo"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="linkedin.svg" class="logo"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- </div> -->
+
+
 </body>
+
 </html>

@@ -13,6 +13,12 @@ body{
     position: relative;
     
 }
+.PORs
+{
+    background-color: #EAf6F6;
+    text-align: center;
+
+}
 
 .bottom-cloud{
     position:absolute;
@@ -29,21 +35,13 @@ body{
     top: 100px;
 }
 .profilepic{
-    width: 300px;
-    margin: 50px auto 30px auto;
-    border-radius: 100%;
+    width: 210px;
+    margin: auto 35px 0 auto;
+   
+   
+    float: left;
 }
 
-.profilepic2{
-    width: 400px;
-    float: left;
-    margin-right: 20px;
-}
-.profilepic3{
-    width: 400px;
-    float: right;
-    margin-left: 20px;
-}
 .skill-row{
     padding:50px;
     margin:50px auto 50px auto;
@@ -65,6 +63,7 @@ h2{
     color:#66BFBF;
     font-weight: normal;
     font-size: 2.5rem;
+    margin:20px auto 20px;
 }
 h3{
     color:#11999E;
@@ -77,8 +76,9 @@ a{
     line-height: 2;
 }
 .profile-discription{
-    width:40%;
-    margin: 10px auto 70px auto;
+    width:80%;
+    margin:  auto;
+    font-size: large;
 
 }
 hr{
@@ -86,6 +86,7 @@ hr{
     width: 4% ;
     border-color: hsl(180, 20%, 73%);
     border-width: 7px;
+    margin:20px auto;
     
 }
 .btn {
@@ -128,3 +129,49 @@ hr{
       color:  #EAF6F6;
       margin: 40px;
   }
+
+  .PORs img{
+    margin:auto;
+  }
+  .PORs h5,.PORs p
+  {
+    font-size: larger;
+    color: black;
+  }
+  .carousel-indicators
+  {
+    background-color: #b7f8e7;
+  }
+  .carousel-control-prev, .carousel-control-next
+  {
+    color: black;
+  }
+
+.nav-item, .navbar
+{
+    margin: auto ;
+    text-align: center;
+}
+.list-group-item
+{
+    text-align: left;
+    margin-left: 30%;
+    border: none;
+}
+footer
+{
+    font-size: medium;
+    text-align: left;
+}
+#contact
+{
+    text-align: left;
+    margin: auto;
+}
+.underlined
+{
+    text-decoration: underline;
+}
+/* label {
+    width: 100px;
+  } */
