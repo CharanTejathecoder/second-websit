@@ -172,6 +172,11 @@ footer
 {
     text-decoration: underline;
 }
-/* label {
-    width: 100px;
-  } */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: white;
+  }
